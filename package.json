@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "semistandard",
     "unit": "mocha --reporter=spec test/*-test.js",
+    "build": "tsc",
     "test": "npm run lint && npm run unit"
   },
   "repository": {
@@ -31,6 +32,7 @@
   "devDependencies": {
     "istanbul": "^0.3.5",
     "mocha": "^2.1.0",
-    "semistandard": "^7.0.4"
+    "semistandard": "^7.0.4",
+    "typescript": "^3.6.3"
   }
 }

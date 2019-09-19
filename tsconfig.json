@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "declarationMap": true,
+    "rootDir": "./lib",
+    "outDir": "./dist",
+    "strict": true,
+    "lib": [
+      "es5"
+    ]
+  },
+  "include": [
+    "./lib/**/*"
+  ]
+}
